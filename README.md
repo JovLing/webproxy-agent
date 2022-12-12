@@ -1,19 +1,8 @@
 # v2ray-agent
 
-> 原作者已删库，由本人重新编辑发布
-
-> [感谢 JetBrains 提供的非商业开源软件开发授权](https://www.jetbrains.com/?from=v2ray-agent)
-
-> [Thanks for non-commercial open source development authorization by JetBrains](https://www.jetbrains.com/?from=v2ray-agent)
-
-
-
-> [English Version](https://github.com/panhuanghe/v2ray-agent/blob/master/documents/en/README_EN.md)
-
 - [Cloudflare 优化方案](https://github.com/panhuanghe/v2ray-agent/blob/master/documents/optimize_V2Ray.md)
 - [流量中转](https://github.com/panhuanghe/v2ray-agent/blob/master/documents/traffic_relay.md)
 - [手动自建教程](https://github.com/panhuanghe/v2ray-agent/blob/master/documents/Cloudflare_install_manual.md)
-- **请给个⭐支持一下**
 
 * * *
 
@@ -83,13 +72,13 @@
 - Latest Version【推荐】
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/panhuanghe/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/jovling/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 - shadowsocks 动态IP白名单模式【Beta】
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/panhuanghe/v2ray-agent/dev_ss/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/jovling/v2ray-agent/dev_ss/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 # 示例图
